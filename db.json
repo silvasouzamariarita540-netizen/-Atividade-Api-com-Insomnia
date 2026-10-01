@@ -1,0 +1,53 @@
+{
+  "jogos": [
+    {
+      "id": "1",
+      "titulo": "Minecraft",
+      "genero": "Sandbox",
+      "plataforma": "PC",
+      "nota": 9,
+      "status": "Jogando"
+    },
+    {
+      "id": "2",
+      "titulo": "The Last of Us",
+      "genero": "Aventura",
+      "plataforma": "PlayStation",
+      "nota": 10,
+      "status": "Finalizado"
+    },
+    {
+      "id": "3",
+      "titulo": "State of Decay",
+      "genero": "Sobrevivência",
+      "plataforma": "PC",
+      "nota": 8,
+      "status": "Finalizado"
+    },
+    {
+      "id": "4",
+      "titulo": "Assassin's Creed Mirage",
+      "genero": "Ação",
+      "plataforma": "PC",
+      "nota": 9,
+      "status": "Abandonado"
+    },
+    {
+      "id": "5",
+      "titulo": "Roblox",
+      "genero": "Aventura",
+      "plataforma": "Mobile",
+      "nota": 10,
+      "status": "Quero jogar"
+    },
+    {
+      "titulo": "Hollow Knight",
+      "genero": "Metroidvania",
+      "plataforma": "PC",
+      "nota": 10,
+      "status": "Finalizado",
+      "id": "ALcWASGB06I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

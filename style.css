@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+
+    background-color: #eef1f6;
+
+    font-family: Arial, sans-serif;
+
+    color: #20243a;
+}
+
+
+
+main {
+    width: 100%;
+    max-width: 1060px;
+
+    margin: auto;
+
+    padding: 45px 30px 35px;
+
+    background-color: white;
+
+    border: 1px solid #d7deea;
+
+    border-radius: 18px;
+}
+
+
+
+
+h1 {
+    margin: 0;
+
+    font-size: 28px;
+
+    color: #20243a;
+}
+
+main > p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    font-size: 13px;
+
+    color: #7c8495;
+}
+
+
+
+
+.quadrinhos {
+    display: flex;
+
+    gap: 18px;
+
+    margin-bottom: 25px;
+}
+
+
+.quadrinhos > div {
+    width: 190px;
+
+    height: 100px;
+
+    padding: 20px;
+
+    background-color: #f2f4f8;
+
+    border-radius: 13px;
+}
+
+
+
+
+.quadrinhos p {
+    margin: 0;
+}
+
+
+
+
+.jogos_cadas p::before {
+    content: "6";
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #6825e8;
+}
+
+
+
+
+.jogando p::before {
+    content: "1";
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #4b78e8;
+}
+
+
+
+
+.finalizados p::before {
+    content: "3";
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #18a66d;
+}
+
+
+
+.jogos_cadas p,
+.jogando p,
+.finalizados p {
+    font-size: 11px;
+
+    color: #6f7889;
+}
+
+
+
+
+.lista_bnts {
+    width: 100%;
+}
+
+#lista_jogos {
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+
+
+.card-jogo {
+    width: 100%;
+
+    min-height: 85px;
+
+    margin-bottom: 14px;
+
+    padding: 18px 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: white;
+
+    border: 1px solid #dce2eb;
+
+    border-radius: 13px;
+}
+
+
+
+
+.info-jogo h3 {
+    margin: 0 0 5px;
+
+    font-size: 15px;
+
+    color: #20243a;
+}
+
+.info-jogo p {
+    margin: 0;
+
+    font-size: 11px;
+
+    color: #7c8495;
+}
+
+
+
+.botoes-jogo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+
+
+.btn-editar {
+    width: 85px;
+
+    height: 32px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #f5a936;
+
+    color: white;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+
+.btn-excluir {
+    width: 85px;
+
+    height: 32px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #ed0013;
+
+    color: white;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+
+
+.btn-editar:hover {
+    opacity: 0.85;
+}
+
+.btn-excluir:hover {
+    opacity: 0.85;
+}
